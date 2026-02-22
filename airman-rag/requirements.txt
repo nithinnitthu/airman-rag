@@ -1,0 +1,32 @@
+# AIRMAN RAG Chat — Dependencies
+# Python 3.10+
+
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.8.2
+
+# PDF Processing
+PyMuPDF==1.24.10
+
+# Embeddings & Vector Search
+sentence-transformers==3.1.1
+faiss-cpu==1.8.0
+numpy==1.26.4
+
+# Hybrid Retrieval (Level 2)
+rank-bm25==0.2.2
+
+# LLM
+openai==1.45.0
+
+# HTTP client (for evaluate.py)
+requests==2.32.3
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
+
+# Optional: Testing
+pytest==8.3.3
+httpx==0.27.2

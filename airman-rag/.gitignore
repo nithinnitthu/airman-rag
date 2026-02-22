@@ -1,0 +1,24 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (generated at runtime)
+data/faiss.index
+data/chunks.json
+
+# Output files
+evaluation_results.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Models (downloaded automatically)
+.cache/
+models/
